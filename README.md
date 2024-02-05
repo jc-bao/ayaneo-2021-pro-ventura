@@ -45,7 +45,8 @@
 **BIOS**: Disable Secure Boot and Fast Boot
 
 
-> ⚠️ This Machine behaves strangely when booting from USB. It may take several tries to boot into the installer. It is common to see the following error. Just keep trying by rebooting the machine. (The `TM` key in the console can do the reboot quickly.)
+> [!NOTE] 
+> This Machine behaves strangely when booting from USB. It may take several tries to boot into the installer. It is common to see the following error. Just keep trying by rebooting the machine. (The `TM` key in the console can do the reboot quickly.)
 
 ## Troubleshooting
 
@@ -55,3 +56,11 @@
 | **Boot Error** | **Error Log** |
 | ------------- | ------------- |
 | ![](figs/boot_error.jpeg) | ![](figs/boot_error2.jpeg) |
+
+## Credits
+
+* [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the OpenCore guide.
+* [OpenIntelWireless](https://openintelwireless.github.io) for Bluetooth solution.
+* [NootedRed](https://github.com/ChefKissInc/NootedRed) for the iGPU solution.
+* [Reddit](https://www.reddit.com/r/hackintosh/) for the boot loop solution.
+* [Ayaneo Mini PC EFI](https://github.com/Xmingbai/AYANEO-AM01-Hackintosh) for the initial EFI reference.
