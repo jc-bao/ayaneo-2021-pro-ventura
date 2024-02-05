@@ -36,6 +36,7 @@
 | Sleep | ✅ | Cannot wake up from sleep. |
 | Graphics Acceleration | ⚠️ | Hardware video decoding is not working. Known issue for AMD iGPU. |
 | WiFi | ❌ | Seems a common issue for this chipset. Tried `itlwm` but get kernel panic. |
+| Built-in Display | ❌ | The built-in display is not working because it is set to be a vertical display. |
 
 
 ## Installation
